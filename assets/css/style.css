@@ -123,11 +123,24 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
+
 
 .arc-nutri {
   width: 80%;
   height: auto;
+  animation: rotate 15s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 .eclipse {
