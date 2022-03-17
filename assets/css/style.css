@@ -8,6 +8,7 @@
   --main-bg-color: #fcfdff;
   --main-border: solid 1px #2e3759;
   --main-text-color: #2e3759;
+  --main-verde: #BBFFCA;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
@@ -174,6 +175,81 @@ a {
   -webkit-backdrop-filter: blur(8.1px);
   border: 1px solid rgba(255, 255, 255, 0.52);
   color: #fff;
+}
+
+/* Produtos */
+.prod-section {
+  justify-content: center;
+  flex-direction: column;
+}
+.Header-Produtos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  border: var(--main-border);
+}
+.produtos {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+}
+
+.prod-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.price-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-top: var(--main-border);
+}
+.price-card > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.frete-cart-price {
+  display: flex;
+  align-items: center;
+  border-top: var(--main-border);
+}
+.frete {
+  text-align: center;
+  width: 50%;
+  padding: 0.5rem;
+}
+.frete > span {
+  font-size: 0.7rem;
+  color: var(--main-text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.cart {
+  text-align: center;
+  width: 50%;
+  padding: 0.5rem;
+  background-color: var(--main-verde);
+  color: var(--main-text-color);
+  border-left: var(--main-border);
+  font-weight: 600;
+  cursor: pointer;
+}
+.cart > span {
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 /* medias */
