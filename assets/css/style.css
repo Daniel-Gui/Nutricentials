@@ -93,7 +93,6 @@ main {
   margin-left: 140px;
 }
 
-
 section {
   display: flex;
   width: 100%;
@@ -339,6 +338,7 @@ strong {
 /* medias */
 
 @media (max-width: 1440px) {
+  
   h1 {
     font-size: 3rem;
   }
@@ -399,6 +399,7 @@ strong {
     font-size: 1.2rem;
   }
 
+
   section {
     flex-direction: column;
     gap: 1rem;
@@ -443,6 +444,7 @@ strong {
     width: 50%;
   }
 }
+
 
 @media (max-width: 768px) {
   .container {

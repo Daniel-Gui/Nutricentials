@@ -7,6 +7,7 @@
     <link rel="icon" type="image/x-icon" href="assets/img/Favicon-min.webp">
     <title>NUTRICENTIALS</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
     <div class="container">
@@ -16,7 +17,7 @@
             <span class="nav-item">@2022 DANIEL GUI</span>
         </nav>
         <main>
-            <section>
+            <section class="inicio">
                 <div class="header">
                     <div class="text-hero">
                         <h1>Sua rotina agitada</br>não precisa aparecer</br>na sua pele.</h1>
@@ -25,7 +26,7 @@
                             na sua melhor forma, quaisquer que sejam</br>
                             os desafios que você enfrenta.
                         </p>
-                        <div style="display: inline-flex;">
+                        <div class="btn-saibamais" style="display: inline-flex;">
                             <a href="#produtos">
                                 <span>Saiba Mais</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -88,7 +89,7 @@
                     </div>
 
                     <div class="card destaque">
-                        <img src="assets/svg/destaque-vendas.svg" alt="" srcset="">
+                        <img class="selo" src="assets/svg/destaque-vendas.svg" alt="" srcset="">
                         <div class="prod-card">
                 
                         </div>
@@ -125,5 +126,13 @@
     </div>
  
     <script src="assets/js/script.js"></script>
+    <script>
+        ScrollReveal().reveal('.inicio', { delay: 200,distance: '50px' });
+        ScrollReveal().reveal('.header-hero-img', { delay: 300,distance: '50px' });
+        ScrollReveal().reveal('.btn-saibamais', { delay: 500,scale: 0.85 });
+        ScrollReveal().reveal('.Header-Produtos', { delay: 500,scale: 0.85 });
+        ScrollReveal().reveal('.produtos', { delay: 1000, distance: '50px' });
+        ScrollReveal().reveal('.selo', { delay: 1500,scale: 0.85 });
+    </script>
 </body>
 </html>
