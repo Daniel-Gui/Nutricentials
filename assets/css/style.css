@@ -335,6 +335,70 @@ strong {
   gap: 10px;
 }
 
+/* perguntas */
+.perguntas {
+  flex-direction: column;
+  max-height: 1200px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 5rem 5rem 5rem;
+}
+
+.accordion {
+  width: 100%;
+  color: black;
+  background-color: white;
+}
+
+.accordion .container-acc {
+  position: relative;
+  margin: 10px 10px;
+}
+
+.accordion .label {
+  position: relative;
+  padding: 10px 0;
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+}
+
+.accordion .label::before {
+  content: '+';
+  color: black;
+  position: absolute;
+  top: 50%;
+  right: -5px;
+  font-size: 30px;
+  transform: translateY(-50%);
+}
+
+.accordion .content {
+  position: relative;
+  background: white;
+  height: 0;
+  font-size: 20px;
+  text-align: justify;
+  width: 100%;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.accordion hr {
+  width: 100;
+  margin-left: 0;
+  border: 1px solid grey;
+}
+
+.accordion .container-acc.active .content {
+  height: auto;
+}
+
+.accordion .container-acc.active .label::before {
+  content: '-';
+  font-size: 30px;
+}
+
 /* medias */
 
 @media (max-width: 1440px) {
