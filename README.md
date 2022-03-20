@@ -6,16 +6,23 @@
 
 ### Ajustes e melhorias
 
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+O projeto ainda está em desenvolvimento, devido ao tempo no trabalho atual e alguns acontecimentos pessoais como minha recente mudança de cidade não consegui fazer tudo que eu gostaria..., mas as próximas atualizações serão voltadas nas seguintes tarefas:
 
 - [x] Criar UI Figma
 - [x] Desenvolver o site
+- [x] Criar animações
 - [x] Testes de desempenho
 - [x] Polimento part 1 
-- [ ] Ajustar ancoras no mobile
+- [ ] Ajustar ancoras
+- [ ] Implementar acessibilidade
 - [ ] Polimento part 2
 
-## 💻 Pré-requisitos
+## 💻 site
 
 Apenas acesse o link : https://daniel-gui.github.io/Nutricentials/
+
+## 🤘 Figma
+
+Acesse : https://www.figma.com/file/CZQ6aIkOGtf4Tu8Gu97Bk8/NUTRICENTIALS.?node-id=0%3A1
+
 
