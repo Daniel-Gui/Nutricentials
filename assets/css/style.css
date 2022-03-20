@@ -494,6 +494,7 @@ strong {
   }
   .produtos {
     flex-direction: column;
+    height: auto;
   }
   .card {
     width: 100%;
