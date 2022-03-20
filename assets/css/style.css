@@ -93,6 +93,10 @@ main {
   margin-left: 140px;
 }
 
+section:target {
+  scroll-margin-top: .8em;
+}
+
 section {
   display: flex;
   width: 100%;
@@ -526,8 +530,6 @@ strong {
   p {
     font-size: 1.2rem;
   }
-
-
   section {
     flex-direction: column;
     gap: 1rem;
