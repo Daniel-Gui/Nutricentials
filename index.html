@@ -14,12 +14,28 @@
 <body>
     <div class="container">
         <nav>
-            <img src="assets/img/Favicon-min.webp" width="30" alt="Logo">
-            <span class="nav-item">NUTRICENTIALS.</span>
-            <span class="nav-item">@2022 DANIEL GUI</span>
+            <a href="#inicio">
+                <img src="assets/img/Favicon-min.webp" width="30" alt="Logo">
+            </a>
+            <a href="#caracteristicas">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+            </a>
+            <a href="#produtos">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                  </svg>
+            </a>
+            <a href="#perguntas">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+            </a>
+            
         </nav>
         <main>
-            <section class="inicio">
+            <section id="inicio" class="inicio">
                 <div class="header">
                     <div class="text-hero">
                         <h1>Sua rotina agitada</br>não precisa aparecer</br>na sua pele.</h1>
@@ -29,7 +45,7 @@
                             os desafios que você enfrenta.
                         </p>
                         <div class="btn-saibamais" style="display: inline-flex;">
-                            <a href="#produtos">
+                            <a href="#caracteristicas">
                                 <span>Saiba Mais</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="20" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -56,6 +72,33 @@
                         </div>
                     </div>
                 </div>
+            </section>
+            <section id="caracteristicas" class="caracteristicas">
+                <div class="header-caracteristicas">
+                    <h1>Benefícios e características</h1>
+                </div>
+                <div class="beneficios-caracteristicas">
+                    <div class="lista-beneficios">
+                        <span>Feito com ingredientes bioadaptativos que ajudam a sua pele a se adaptar ao ambiente.</span>
+                        <hr>
+                        <span>Uma fórmula natural com ingredientes orgânicos que você sente instantaneamente ao colocar em sua pele.</span>
+                        <hr>
+                        <span>Proporciona hidratação imediata e 24 horas de hidratação contínua.</span>
+                        <hr>
+                        <span>Ajuda a proteger e aumentar a resiliência aos efeitos nocivos do estresse e poluição.</span>
+                        <hr>
+                        <span>Apoia o processo de recuperação natural da pele.</span>
+                        <hr>
+                        <span>Suaviza, nutre e condiciona a pele com uma fórmula cremosa.</span>
+                        <hr>
+                        <span>Ajuda a sua pele a adaptar-se a qualquer ambiente, para que você possa sempre apresentar seu rosto na melhor forma.</span>
+                    </div>
+                    <div class="prod-beneficios">
+                    </div>
+                </div>
+                
+                
+               
             </section>
             <section id="produtos" class="prod-section">
                 <div class="Header-Produtos">
@@ -135,7 +178,7 @@
                     </div>
                 </div>
             </section>
-            <section class="perguntas">
+            <section id="perguntas" class="perguntas">
                 <h1>Perguntas frequentes</h1>
                 <div class="accordion-body">
                     <div class="accordion">
