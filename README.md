@@ -1,6 +1,6 @@
 # Nutricentials: por Daniel Gui.
 
-<img src="../assets/img/Git-banner.webp" alt="exemplo imagem">
+<img src="Git-banner-min.webp" alt="gitbanner">
 
 > Site com foco no produto, simplicidade e navegação suave centrada na informação. 
 
