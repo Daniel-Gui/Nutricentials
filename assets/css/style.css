@@ -345,9 +345,10 @@ strong {
 }
 
 .accordion {
-  width: 100%;
-  color: black;
-  background-color: white;
+  width: 70%;
+  color: var(--main-text-color);
+  
+  margin-top: 2rem;
 }
 
 .accordion .container-acc {
@@ -358,14 +359,14 @@ strong {
 .accordion .label {
   position: relative;
   padding: 10px 0;
-  font-size: 30px;
-  color: black;
+  font-size: 1.5rem;
+  color: var(--main-text-color);
   cursor: pointer;
 }
 
 .accordion .label::before {
   content: '+';
-  color: black;
+  color: var(--main-text-color);
   position: absolute;
   top: 50%;
   right: -5px;
@@ -375,9 +376,8 @@ strong {
 
 .accordion .content {
   position: relative;
-  background: white;
   height: 0;
-  font-size: 20px;
+  font-size: 1rem;
   text-align: justify;
   width: 100%;
   overflow: hidden;
@@ -387,11 +387,13 @@ strong {
 .accordion hr {
   width: 100;
   margin-left: 0;
-  border: 1px solid grey;
+  border: var(--main-border);
 }
 
 .accordion .container-acc.active .content {
+  transition: 0.5s;
   height: auto;
+  margin: 0.7rem 0 0.7rem 0;
 }
 
 .accordion .container-acc.active .label::before {
@@ -439,10 +441,13 @@ strong {
   section {
     min-height: 600px;
   }
+
+  .accordion {
+    width: 100%;
+  }
 }
 
 @media (max-width: 1024px) {
-
   .container {
     height: auto;
   }
@@ -470,6 +475,7 @@ strong {
     padding-top: 1rem;
     height: auto;
     padding: 2rem 4rem 2rem 4rem;
+    margin: 3.5rem 0 3.5rem 0;
   }
 
   .header {
@@ -507,6 +513,7 @@ strong {
   .uma-unidade > img {
     width: 50%;
   }
+
 }
 
 
@@ -598,6 +605,18 @@ strong {
   .uma-unidade > img {
     width: 40%;
   }
+
+  .accordion .label {
+    font-size: 1.2rem;
+  }
+  .accordion .content {
+    font-size: 0.9rem;
+  }
+
+  .perguntas {
+    max-height: auto;
+    padding: 0 2rem 5rem 2rem;
+  }
 }
 
 @media (max-width: 425px) {
@@ -676,5 +695,16 @@ strong {
   }
   .frete > span {
     font-size: 0.5rem;
+  }
+
+  .accordion .label {
+    font-size: 0.9rem;
+  }
+  .accordion .content {
+    font-size: 0.8rem;
+  }
+
+  .perguntas {
+    padding: 0 2rem 5rem 2rem;
   }
 }
